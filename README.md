@@ -19,7 +19,7 @@ The labs focus on configuring AWS services, understanding how different cloud co
 * EC2 Launch Templates
 * Auto Scaling Groups
 * Amazon CloudWatch
-* Security groups
+* Security Groups
 * IAM policies and permissions
 * Cloud infrastructure configuration
 * High availability and scalability
@@ -38,7 +38,7 @@ Key activities:
 * Tested permissions using different IAM users
 * Verified read-only and administrative access
 
-[View IAM Lab](./01-iam/iam-lab-report.md)
+[View IAM Lab](https://github.com/grace-secops/aws-cloud-labs-portfolio/blob/main/01-iam/iam-lab-report.md)
 
 ---
 
@@ -54,7 +54,7 @@ Key activities:
 * Configured web server access
 * Tested connectivity to the deployed server
 
-[View VPC and Web Server Lab](./02-vpc-web-server/vpc-web-server-report.md)
+[View VPC and Web Server Lab](https://github.com/grace-secops/aws-cloud-labs-portfolio/blob/main/02-vpc-web-server/vpc-web-server-report.md)
 
 ---
 
@@ -70,7 +70,7 @@ Key activities:
 * Increased the root EBS volume size
 * Verified the running web server
 
-[View EC2 Lab](./03-ec2/ec2-lab-report.md)
+[View EC2 Lab](https://github.com/grace-secops/aws-cloud-labs-portfolio/blob/main/03-ec2/ec2-lab-report.md)
 
 ---
 
@@ -86,7 +86,7 @@ Key activities:
 * Configured persistent mounting
 * Created and restored an EBS snapshot
 
-[View EBS Lab](./04-ebs/ebs-lab-report.md)
+[View EBS Lab](https://github.com/grace-secops/aws-cloud-labs-portfolio/blob/main/04-ebs/ebs-lab-report.md)
 
 ---
 
@@ -102,7 +102,7 @@ Key activities:
 * Configured database connectivity
 * Connected the application to the database
 
-[View RDS Lab](./05-rds/rds-lab-report.md)
+[View RDS Lab](https://github.com/grace-secops/aws-cloud-labs-portfolio/blob/main/05-rds/rds-lab-report.md)
 
 ---
 
@@ -121,7 +121,7 @@ Key activities:
 * Configured minimum capacity of 2 and maximum capacity of 6
 * Enabled CloudWatch monitoring
 
-[View Load Balancing and Auto Scaling Lab](./06-load-balancing-auto-scaling/load-balancing-auto-scaling.md)
+[View Load Balancing and Auto Scaling Lab](https://github.com/grace-secops/aws-cloud-labs-portfolio/blob/main/06-load-balancing-auto-scaling/load-balancing-auto-scaling.md)
 
 ---
 
@@ -129,7 +129,7 @@ Key activities:
 
 Together, these labs demonstrate a practical progression through core AWS infrastructure concepts:
 
-1. Identity and Access Management** — Control access to AWS resources using IAM users, groups, and policies.
+1. Identity and Access Management — Control access to AWS resources using IAM users, groups, and policies.
 2. Networking — Build and configure a virtual network environment using Amazon VPC.
 3. Compute — Deploy and configure EC2 instances to host applications and services.
 4. Storage — Attach and manage persistent EBS storage and snapshots.
@@ -142,7 +142,7 @@ These labs strengthened my practical understanding of AWS infrastructure and how
 
 I gained hands-on experience configuring access controls, networking, compute resources, storage, managed databases, load balancing, and Auto Scaling.
 
-The exercises also reinforced important cloud concepts including **least-privilege access, resource availability, scalability, monitoring, and infrastructure resilience**.
+The exercises also reinforced important cloud concepts including least-privilege access, resource availability, scalability, monitoring, and infrastructure resilience.
 
  Lab Environment
 
@@ -175,5 +175,6 @@ aws-cloud-labs-portfolio/
 └── 06-load-balancing-auto-scaling/
     └── load-balancing-auto-scaling.md
 ```
+
 
 
